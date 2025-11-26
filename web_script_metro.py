@@ -22,7 +22,7 @@ STORES = [
 ]
 
 INPUT_CSV = "produkty.csv"              # vstupní seznam produktů
-OUTPUT_CSV = "metro_sklady_vystup.csv"  # výstupní tabulka s něčím
+OUTPUT_CSV = "metro_sklady_vystup.csv"  # výstupní tabulka s hodnotami skladu
 
 def create_driver(headless: bool = True) -> webdriver.Chrome:
     options = Options()
